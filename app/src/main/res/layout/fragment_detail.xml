@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="100dp">
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context=".presentation.detail.DetailFragment">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/ivDetail"
+                android:layout_width="match_parent"
+                android:layout_height="360dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/home_image"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:shapeAppearanceOverlay="@style/BottomRoundedDetail" />
+
+            <TextView
+                android:id="@+id/tvDetailTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="24dp"
+                android:text="Nusa Pedina"
+                android:textStyle="bold"
+                android:textColor="@color/detail_title_text_color"
+                android:textSize="28sp"
+                android:fontFamily="@font/montserrat_regular"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/ivDetail" />
+
+            <ImageView
+                android:id="@+id/ivDetailLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:src="@drawable/ic_konum"
+                app:layout_constraintStart_toStartOf="@id/tvDetailTitle"
+                app:layout_constraintTop_toBottomOf="@id/tvDetailTitle" />
+
+            <TextView
+                android:id="@+id/tvDetailCity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="4dp"
+                android:text="Bali,"
+                android:fontFamily="@font/montserrat_light"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@id/ivDetailLocation"
+                app:layout_constraintTop_toBottomOf="@id/tvDetailTitle" />
+            <TextView
+                android:id="@+id/tvDetailCountry"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Indonesia"
+                android:fontFamily="@font/montserrat_light"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                app:layout_constraintStart_toEndOf="@id/tvDetailCity"
+                app:layout_constraintTop_toTopOf="@id/tvDetailCity"/>
+
+
+            <TextView
+                android:id="@+id/tvDetailDesc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvDetailCountry"
+                android:layout_marginHorizontal="20dp"
+                android:fontFamily="@font/montserrat_light"
+                android:textStyle="bold"
+                android:textSize="16sp"
+                android:layout_marginTop="20dp"
+                android:text="Tanzania is heaven on earth.
+                Tanzania is heaven on earth.Tanzania is heaven on earth."/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/btnDetailAddBookmark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvDetailDesc"
+                android:layout_marginHorizontal="40dp"
+                android:text="Add Bookmark"
+                android:layout_marginTop="16dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat_semi_bold"
+                android:paddingVertical="16dp"
+                android:backgroundTint="@color/bottom_nav_selected_color"
+                android:textAllCaps="false"
+                app:cornerRadius="8dp"/>
+
+
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+</layout>

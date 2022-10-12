@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--Colors for HomeFragment-->
+    <color name="bottom_nav_selected_color">#FF4760</color>
+    <color name="bottom_nav_default_color">#181A25</color>
+    <color name="home_bg_color">#E5E5E5</color>
+    <color name="home_top_text_color">#FCFCFD</color>
+    <color name="home_deals_text_color">#181A25</color>
+    <color name="home_sub_text_color">#C2C5D6</color>
+
+    <!--Colors for SearchFragment-->
+    <color name="search_text_color">#292C3D</color>
+    <color name="search_bg_color">#FCFCFD</color>
+    <color name="search_edit_text_color">#52577A</color>
+
+    <!--Colors for TripFragment-->
+    <color name="trip_text_color">#292C3D</color>
+    <color name="trip_bg_color">#FCFCFD</color>
+    <color name="trip_trip_btn_text_color">#C2C5D6</color>
+
+    <!--Colors for GuideFragment-->
+    <color name="might_need_these_top_text_color">#FCFCFD</color>
+    <color name="top_pick_articles_experience_text_color">#0048F0</color>
+    <color name="category_text_color">#0048F0</color>
+    <color name="top_pick_articles_description_text_color">#181A25</color>
+    <color name="top_pick_card_bg_color">#F8F8F8</color>
+
+
+    <!--Colors for DetailFragment-->
+    <color name="detail_title_text_color">#0A2753</color>
+    <color name="detail_selected_color">#FF4760</color>
+    <color name="detail_default_color">#C2C5D6</color>
+    <color name="detail_ic_color">#FCFCFD</color>
+
+
+
+
+
+
+</resources>

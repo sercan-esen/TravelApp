@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TravelApp</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--Strings for HomeFragment-->
+    <string name="home_top_text">Where’s your next destination?</string>
+    <string name="home_taxi_text">Taxi</string>
+    <string name="home_cars_text">Cars</string>
+    <string name="home_hotels_text">Hotels</string>
+    <string name="home_flights_text">Flights</string>
+    <string name="home_deals_text">Deals</string>
+    <string name="home_all_text">All</string>
+    <string name="home_transportations_text">Transportations</string>
+
+    <!--Strings for SearchFragment-->
+    <string name="search_text">Search</string>
+    <string name="where_next">Where next?</string>
+    <string name="top_destinations_text">tOP DESTINATIONS</string>
+    <string name="nearby_attractions_text">NEARBY ATTRACTIONS</string>
+
+    <!--Strings for GuideFragment-->
+    <string name="guide_text">Guide</string>
+    <string name="might_need_these_text">Might need these</string>
+    <string name="see_all_text"><u>See all</u></string>
+    <string name="country_city_place_text">A country,a city,a place or anything</string>
+    <string name="top_pick_articles_text">Top-pIck artIcles</string>
+
+
+
+</resources>

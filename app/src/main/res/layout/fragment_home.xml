@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/home_bg_color"
+        tools:context=".presentation.home.HomeFragment">
+
+        <ImageView
+            android:id="@+id/ivHomeTop"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/home_image"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHeight_percent="0.5603"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tvHomeTop"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="144dp"
+            android:fontFamily="@font/source_sans_pro_bold"
+            android:text="@string/home_top_text"
+            android:textColor="@color/home_top_text_color"
+            android:textSize="29sp"
+            app:layout_constraintBottom_toTopOf="@id/flightsButton"
+            app:layout_constraintEnd_toEndOf="@id/ivHomeTop" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/flightsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/ic_bg_home_rectangle"
+            app:icon="@drawable/ic_home_flights"
+            app:iconGravity="textStart"
+            app:layout_constraintBottom_toBottomOf="@id/ivHomeTop"
+            app:layout_constraintStart_toStartOf="@id/ivHomeTop" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/hotelsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/ic_bg_home_rectangle"
+            app:icon="@drawable/ic_home_hotels"
+            app:iconGravity="textStart"
+            app:layout_constraintBottom_toBottomOf="@id/ivHomeTop"
+            app:layout_constraintStart_toEndOf="@id/flightsButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/carsButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/ic_bg_home_rectangle"
+            app:icon="@drawable/ic_home_cars"
+            app:iconGravity="textStart"
+            app:layout_constraintBottom_toBottomOf="@id/ivHomeTop"
+            app:layout_constraintStart_toEndOf="@id/hotelsButton" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/taxiButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/ic_bg_home_rectangle"
+            app:icon="@drawable/ic_home_taxi"
+            app:iconGravity="textStart"
+            app:layout_constraintBottom_toBottomOf="@id/ivHomeTop"
+            app:layout_constraintStart_toEndOf="@id/carsButton" />
+
+        <TextView
+            style="@style/home_text_style"
+            android:layout_marginBottom="-12dp"
+            android:text="@string/home_flights_text"
+            app:layout_constraintBottom_toBottomOf="@id/flightsButton"
+            app:layout_constraintEnd_toEndOf="@id/flightsButton"
+            app:layout_constraintStart_toStartOf="@id/flightsButton" />
+
+        <TextView
+            style="@style/home_text_style"
+            android:layout_marginBottom="-12dp"
+            android:text="@string/home_hotels_text"
+            app:layout_constraintBottom_toBottomOf="@id/hotelsButton"
+            app:layout_constraintEnd_toEndOf="@id/hotelsButton"
+            app:layout_constraintStart_toStartOf="@id/hotelsButton" />
+
+        <TextView
+            style="@style/home_text_style"
+            android:layout_marginBottom="-12dp"
+            android:text="@string/home_cars_text"
+            app:layout_constraintBottom_toBottomOf="@id/carsButton"
+            app:layout_constraintEnd_toEndOf="@id/carsButton"
+            app:layout_constraintStart_toStartOf="@id/carsButton"
+            app:layout_constraintTop_toBottomOf="@id/carsButton" />
+
+        <TextView
+            style="@style/home_text_style"
+            android:layout_marginBottom="-12dp"
+            android:text="@string/home_taxi_text"
+            app:layout_constraintBottom_toBottomOf="@id/taxiButton"
+            app:layout_constraintEnd_toEndOf="@id/taxiButton"
+            app:layout_constraintStart_toStartOf="@id/taxiButton"
+            app:layout_constraintTop_toBottomOf="@id/taxiButton" />
+
+        <TextView
+            android:id="@+id/tvHomeDeals"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            android:fontFamily="@font/source_sans_pro_semibold"
+            android:text="@string/home_deals_text"
+            android:textAllCaps="true"
+            android:textColor="@color/home_deals_text_color"
+            android:textSize="20sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/ivHomeTop" />
+
+        <TextView
+            android:id="@+id/tvHomeAll"
+            style="@style/home_sub_text_style"
+            android:text="@string/home_all_text"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvHomeDeals" />
+
+        <TextView
+            android:id="@+id/tvHomeFlights"
+            style="@style/home_sub_text_style"
+            android:text="@string/home_flights_text"
+            app:layout_constraintStart_toEndOf="@id/tvHomeAll"
+            app:layout_constraintTop_toBottomOf="@id/tvHomeDeals" />
+
+        <TextView
+            android:id="@+id/tvHomeHotels"
+            style="@style/home_sub_text_style"
+            android:text="@string/home_hotels_text"
+            app:layout_constraintStart_toEndOf="@id/tvHomeFlights"
+            app:layout_constraintTop_toBottomOf="@id/tvHomeDeals" />
+
+        <TextView
+            android:id="@+id/tvHomeTransportations"
+            style="@style/home_sub_text_style"
+            android:text="@string/home_transportations_text"
+            app:layout_constraintStart_toEndOf="@id/tvHomeHotels"
+            app:layout_constraintTop_toBottomOf="@id/tvHomeDeals" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvHomeDeals"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tvHomeAll" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
+
+
+

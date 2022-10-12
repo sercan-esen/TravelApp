@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2165" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bg_bottom_navbar_curved.xml" value="0.23" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bg_bottom_navbar_guide_selector.xml" value="0.2335" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bg_bottom_navbar_home_selector.xml" value="0.2335" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bg_bottom_navbar_item.xml" value="0.2335" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bg_bottom_navbar_search_selector.xml" value="0.2335" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bg_bottom_navbar_trip_selector.xml" value="0.2335" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bg_home_buttons.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bg_home_rectangle.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bg_transparent_view.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bottom_navbar_selector.xml" value="0.2335" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/bottom_navigation_selector.xml" value="0.2335" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/deneme_rectangle.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bg_home_rectangle.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bookmark.xml" value="0.204" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bookmark_background.xml" value="0.132" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bookmark_selected.xml" value="0.204" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bookmark_selector.xml" value="0.204" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bottom_nav_bar_home.xml" value="0.23" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bottom_navbar_guide.xml" value="0.23" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bottom_navbar_guide_selected.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bottom_navbar_home.xml" value="0.23" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bottom_navbar_home_selected.xml" value="0.2335" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bottom_navbar_search.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bottom_navbar_search_selected.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_bottom_navbar_trip_selected.xml" value="0.2335" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_frame2.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_home_cars.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_home_flights.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_home_hotels.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_home_taxi.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_launcher_background.xml" value="0.2165" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_mall.xml" value="0.229" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/ic_search.xml" value="0.2345" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/museum.xml" value="0.229" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/rentcar.xml" value="0.229" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/resort.xml" value="0.229" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/restaurant.xml" value="0.229" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/sightseeing.xml" value="0.229" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/drawable/taxi.xml" value="0.229" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/activity_main.xml" value="0.3602865916069601" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_detail.xml" value="0.3619791666666667" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_guide.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_home.xml" value="0.3351851851851852" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_search.xml" value="0.25" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/fragment_trip.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/guide_category_recycler_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/guide_might_recycler_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/guide_top_pick_recycler_row.xml" value="0.365625" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/home_recycler_row.xml" value="0.36" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/progress_view.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/search_nearby_recycler_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/layout/search_top_recycler_row.xml" value="0.36666666666666664" />
+        <entry key="..\:/Users/glukh/AndroidStudioProjects/TravelApp/app/src/main/res/menu/bottom_nav_menu.xml" value="0.3619791666666667" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

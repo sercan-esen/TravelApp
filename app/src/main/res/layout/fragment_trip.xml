@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/trip_bg_color"
+        tools:context=".presentation.trip.TripFragment">
+
+        <TextView
+            android:id="@+id/tvTripTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="52dp"
+            android:fontFamily="@font/source_sans_pro_bold"
+            android:text="Trip Plan"
+            android:textColor="@color/trip_text_color"
+            android:textSize="30sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnTrips"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/trip_bg_color"
+            android:fontFamily="@font/source_sans_pro_bold"
+            android:text="Trips"
+            android:textAllCaps="false"
+            android:textColor="@color/trip_trip_btn_text_color"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            app:iconSize="24dp"
+            app:iconPadding="10dp"
+            app:icon="@drawable/ic_bottom_navbar_trip"
+            app:iconTint="@color/trip_trip_btn_text_color"
+            app:layout_constraintStart_toStartOf="@id/tvTripTitle"
+            app:layout_constraintTop_toBottomOf="@id/tvTripTitle" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnBookmark"
+            style="@style/Widget.MaterialComponents.Button.TextButton.Icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/trip_bg_color"
+            android:fontFamily="@font/source_sans_pro_bold"
+            android:text="Bookmark"
+            android:textAllCaps="false"
+            android:textColor="@color/trip_trip_btn_text_color"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            app:iconPadding="10dp"
+            app:icon="@drawable/ic_trip_bookmark"
+            app:iconTint="@color/trip_trip_btn_text_color"
+            app:layout_constraintStart_toEndOf="@id/tvTripTitle"
+            app:layout_constraintTop_toBottomOf="@id/tvTripTitle" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/tripFab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/bottom_nav_selected_color"
+            android:src="@drawable/ic_add_trip_fab"
+            app:tint="@color/detail_ic_color"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginBottom="88dp"
+            />
+
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

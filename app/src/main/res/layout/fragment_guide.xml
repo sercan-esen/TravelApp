@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        tools:context=".presentation.guide.GuideFragment">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="#E5E5E5">
+
+            <TextView
+                android:id="@+id/tvGuide"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="48dp"
+                android:fontFamily="@font/source_sans_pro_bold"
+                android:text="@string/guide_text"
+                android:textColor="@color/search_text_color"
+                android:textSize="27sp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:id="@+id/tvMightNeedThese"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:text="@string/might_need_these_text"
+                android:textAllCaps="true"
+                android:textColor="@color/search_text_color"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/tvGuide"
+                app:layout_constraintTop_toBottomOf="@+id/tvGuide" />
+
+            <TextView
+                android:id="@+id/tvSeeAll"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:text="@string/see_all_text"
+                android:textColor="@color/bottom_nav_selected_color"
+                android:textSize="14sp"
+                app:layout_constraintBottom_toBottomOf="@id/tvMightNeedThese"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvGuideMightNeedThese"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvMightNeedThese" />
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayoutGuideSearch"
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_marginHorizontal="16dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/search_edit_text_color"
+                app:endIconDrawable="@drawable/ic_search"
+                app:endIconMode="custom"
+                app:endIconTint="#FF667A"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHeight_percent="0.08"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/rvGuideMightNeedThese">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/etGuideSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/source_sans_pro_regular"
+                    android:hint="@string/country_city_place_text"
+                    android:textSize="16sp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvGuideCategory"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                app:layout_constraintStart_toStartOf="@id/textInputLayoutGuideSearch"
+                app:layout_constraintTop_toBottomOf="@id/textInputLayoutGuideSearch" />
+
+            <TextView
+                android:id="@+id/tvTopPickArticles"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/source_sans_pro_semibold"
+                android:text="@string/top_pick_articles_text"
+                android:textAllCaps="true"
+                android:textColor="@color/search_text_color"
+                android:textSize="18sp"
+                app:layout_constraintStart_toStartOf="@+id/rvGuideCategory"
+                app:layout_constraintTop_toBottomOf="@id/rvGuideCategory" />
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/rvTopPickArticles"
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/tvTopPickArticles" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+    </androidx.core.widget.NestedScrollView>
+
+</layout>
